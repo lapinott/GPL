@@ -1,0 +1,9 @@
+<GuiXml>
+	<Controls>
+		<TopLevelControl name="GPL_TLC">
+			<OnUpdate>
+				GPL.Track()
+			</OnUpdate>
+		</TopLevelControl>
+	</Controls>
+</GuiXml>

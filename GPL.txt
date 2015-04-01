@@ -1,0 +1,7 @@
+## Title: Grindspot Locations
+## APIVersion: 100011
+## SavedVariables: GPLUserDB
+
+Include/map.lua
+GPL.lua
+GPL.xml
