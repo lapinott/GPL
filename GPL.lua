@@ -48,7 +48,7 @@ GPL.Pins.Rated_u = "GPL_Pin_r_u";
 -- Init main vars
 GPL.name = "GPL"
 GPL.command = "/gpl"
-GPL.version = 0.5
+GPL.version = 1.6
 GPL.lastTick = 0
 GPL.tick = 250
 GPL.VarRevision = 1
