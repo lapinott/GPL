@@ -143,7 +143,8 @@ function GPL.Initialize(eventCode, addOnName)
 			-- Get note rating
 			local nodeRating;
 			if userNode then nodeRating = pinTag["PinData"]["rating"] end
-			if mapNode then nodeRating = tonumber(pinTag["PinData"]["rating"]) / tonumber(pinTag["PinData"]["rating_count"]) end
+			if mapNode and tonumber(pinTag["PinData"]["rating_count"]) ~= '0' then nodeRating = tonumber(pinTag["PinData"]["rating"]) / tonumber(pinTag["PinData"]["rating_count"]) end
+			if mapNode and tonumber(pinTag["PinData"]["rating_count"]) == '0' then nodeRating = 0 end
 			
 			-- Get node lvl
 			local nodeLvl;
